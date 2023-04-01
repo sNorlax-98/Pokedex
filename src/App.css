@@ -3,7 +3,7 @@
     border: 1px solid #ccc;
     border-radius: 5px;
     box-shadow: 0 1px 10px rgba(0,0,0,.12), 0 1px 2px rgba(0,0,0,.24);
-    margin-left: 490px;
+    margin-left: 800px;
     padding: 10px;
     margin-top: 80px;
     width: 300px;
@@ -49,7 +49,7 @@ h1,h3{
 }
 .search-div{
     display: block;
-    margin-left: 500px;
+    margin-left: 800px;
     background-color: #e9f266;
 }
 html{

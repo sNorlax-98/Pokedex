@@ -32,6 +32,9 @@ function App() {
           <img className='poke-img img-front' src={selectedPokemon.sprites.front_default} alt={selectedPokemon.name} />
           <img className='poke-img img-back' src={selectedPokemon.sprites.back_default} alt={selectedPokemon.name} />
           <h3>{selectedPokemon.species.name}</h3>
+          <ul>{selectedPokemon.abilities.map(d=>{
+            return <li> {(d.ability.name).toUpperCase()} </li>
+          })}</ul>
           <p>{}</p>
         </div> :
         null
